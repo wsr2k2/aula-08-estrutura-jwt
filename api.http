@@ -1,0 +1,33 @@
+# listar filmes
+GET http://localhost:3000/filmes/
+###
+# listar filmes
+GET http://localhost:3000/filmes/12
+
+###
+# criar um filme novo
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+    "nome":"Matrix",
+    "imagem":"imagem.jpg"
+}
+###
+
+# listar participantes
+GET http://localhost:3000/participantes
+###
+
+# criar um participante
+POST http://localhost:3000/participantes
+Content-Type: application/json
+
+{
+    "nome":"teste"
+}
+###
+
+# listar genero
+GET http://localhost:3000/usuarios
+###
